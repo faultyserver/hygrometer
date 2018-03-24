@@ -34,7 +34,7 @@ Myst doesn't currently have a dependency manager, so the simplest way to use hyg
 
 # Development
 
-Run the specs with `myst spec/hygrometer.mt`. The specs will take a long time to run, as many benchmarking methods default to long run time values for more accurate results.
+Run the specs with `myst spec/hygrometer.mt`. The specs will take a long time to run, as many benchmarking methods default to long run time values for more accurate results. Currently, these specs rely on unreleased features of Myst (namely `assert`, as of `v0.5.0`). These changes should be available in the next release coming soon.
 
 # The name
 
